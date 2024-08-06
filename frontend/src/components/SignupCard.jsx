@@ -65,8 +65,16 @@ export default function SignupCard() {
     <Flex align={'center'} justify={'center'} >
       <Stack spacing={8} mx={'auto'} maxW={'lg'} py={12} px={6}>
        
-        <Stack align={'center'}>
-          <Heading fontSize={'4xl'} textAlign={'center'}>
+        <Stack align={'center'}> 
+        <Heading fontSize="4xl" textAlign="center">
+        <Box as="span" color="blue.500">
+           Club
+         </Box>
+           <Box as="span" color="red.500">
+             Chat
+          </Box>
+        </Heading>
+          <Heading fontSize={'3xl'} textAlign={'center'}>
             Sign up
           </Heading>
            </Stack>
